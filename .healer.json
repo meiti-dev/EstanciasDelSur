@@ -1,6 +1,19 @@
 {
   "revisar": [
-    "src/fabrica/diccionario/**"
+    "server/moldes/EstanciasDelSur_muujoww4__Configuracion.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__PanelRolesPermisos.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__PanelConfiguracionPagos.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__PanelConfiguracionArchivos.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_DashboardMetricas.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_LlegadasSalidas.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_ExploradorAlojamientos.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_AdminDepartamentos.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_DetalleDepartamento.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_FormularioReserva.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_GestorReservas.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_GestorPagos.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_GestorLimpieza.jsx",
+    "server/moldes/EstanciasDelSur_muujoww4__ES_GestorCatalogos.jsx"
   ],
   "vulnerabilidades_aceptadas": [
     {
