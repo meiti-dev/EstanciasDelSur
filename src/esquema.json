@@ -1,0 +1,141 @@
+{
+  "requiere_login": false,
+  "tema": {
+    "colorPrimario": "#E07A5F",
+    "colorSecundario": "#81B29A",
+    "fondo": "#FDF6EC",
+    "superficie": "#FFFFFF",
+    "texto": "#3D405B"
+  },
+  "navegacion": {
+    "tipo": "tabs_inferior"
+  },
+  "paginas": [
+    {
+      "id": "inicio",
+      "titulo": "Inicio",
+      "icono": "fa-house",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_DashboardMetricas",
+          "col_span": 12
+        },
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_LlegadasSalidas",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Muestra porcentaje de ocupación mensual, ingresos acumulados, llegadas y salidas de hoy, y próximas limpiezas"
+    },
+    {
+      "id": "alojamientos",
+      "titulo": "Alojamientos",
+      "icono": "fa-bed",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_ExploradorAlojamientos",
+          "col_span": 12
+        },
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_AdminDepartamentos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Lista los departamentos con fotos, capacidad, precio por noche y servicios con filtros por capacidad y precio"
+    },
+    {
+      "id": "detalle_reserva",
+      "titulo": "Reserva",
+      "icono": "fa-calendar-check",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_DetalleDepartamento",
+          "col_span": 12
+        },
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_FormularioReserva",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Presenta galería de fotos, descripción completa, calendario con días ocupados y formulario de reserva con cálculo de costo total"
+    },
+    {
+      "id": "reservas",
+      "titulo": "Reservas",
+      "icono": "fa-book-open",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_GestorReservas",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Listado general de reservas con datos del huésped, fechas, montos y estados, con filtros y opciones para editar estado o cancelar"
+    },
+    {
+      "id": "pagos",
+      "titulo": "Pagos",
+      "icono": "fa-wallet",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_GestorPagos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Control de cobros asociados a reservas, métodos utilizados, fechas de pago y saldo pendiente de cada estadía"
+    },
+    {
+      "id": "configuracion",
+      "titulo": "Configuración",
+      "icono": "fa-gear",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__Configuracion",
+          "col_span": 12
+        },
+        {
+          "tipo": "EstanciasDelSur_muujoww4__PanelRolesPermisos",
+          "col_span": 12
+        },
+        {
+          "tipo": "EstanciasDelSur_muujoww4__PanelConfiguracionPagos",
+          "col_span": 12
+        },
+        {
+          "tipo": "EstanciasDelSur_muujoww4__PanelConfiguracionArchivos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Planificación de tareas de limpieza entre salida y entrada, asignación al equipo y cambio de estado a listo"
+    },
+    {
+      "id": "limpieza",
+      "titulo": "Limpieza",
+      "icono": "fa-broom",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_GestorLimpieza",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Planificación de tareas de limpieza entre salida y entrada, asignación al equipo y cambio de estado a listo"
+    },
+    {
+      "id": "catalogos",
+      "titulo": "Catálogos",
+      "icono": "fa-tags",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "EstanciasDelSur_muujoww4__ES_GestorCatalogos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Administración de opciones para estados de reserva, métodos de pago y servicios disponibles en los departamentos"
+    }
+  ],
+  "estilo_layout": "app",
+  "es_industrial": false,
+  "estilo_visual": "calido"
+}

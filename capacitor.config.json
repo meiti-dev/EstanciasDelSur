@@ -1,0 +1,11 @@
+{
+  "appId": "dev.meiti.export.estanciasdelsur_muujoww4",
+  "appName": "EstanciasDelSur",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "webContentsDebuggingEnabled": false
+  }
+}
